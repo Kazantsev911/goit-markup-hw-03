@@ -125,10 +125,15 @@ img {
 
 } */
 
-.bgrnd {
+/* .bgrnd {
   background: #2e2f42;
   width: 1440px;
   margin: 0 auto;
+} */
+
+.hero {
+  background: #2e2f42;
+  padding: 188px 0;
 }
 
 .hero-title {
@@ -354,8 +359,4 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   display: flex;
-}
-
-.section {
-  padding: 188px 0;
 }
