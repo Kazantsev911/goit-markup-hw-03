@@ -114,6 +114,11 @@ img {
   gap: 40px;
 }
 
+.header-addres-item {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
 /* .header-bg {
   background: #2e2f42;
 
@@ -348,10 +353,8 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   display: flex;
-  align-items: center;
 }
 
 .section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 188px 0;
 }
