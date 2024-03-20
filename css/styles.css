@@ -120,17 +120,6 @@ img {
   padding: 24px 0;
 }
 
-/* .header-bg {
-  background: #2e2f42;
-
-} */
-
-/* .bgrnd {
-  background: #2e2f42;
-  width: 1440px;
-  margin: 0 auto;
-} */
-
 .hero {
   background: #2e2f42;
   padding: 188px 0;
@@ -147,18 +136,13 @@ img {
   margin: 0 auto;
 }
 
-.hero-btn-wrap {
-  padding-top: 48px;
-  display: flex;
-}
-
 .hero-title-btn {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  background: #4d5ae5;
+  background-color: #4d5ae5;
   cursor: pointer;
   border-radius: 4px;
   padding: 16px 32px;
@@ -166,6 +150,9 @@ img {
   justify-content: center;
   margin: 0 auto;
   border: none;
+  display: block;
+  min-width: 169px;
+  height: 56px;
 }
 
 .hero-title-btn:hover {
