@@ -34,17 +34,11 @@ img {
   display: block;
 }
 
-.header-bgrnd {
-  background: #fff;
-  width: 1440px;
-  margin: 0 auto;
-}
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
   background: #fff;
-  display: flex;
 }
 
 .header-navigation {
@@ -61,7 +55,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  display: flex;
+  margin-right: 76px;
 }
 
 .header-logo-studio {
@@ -69,12 +63,7 @@ img {
 }
 .header-menu-list {
   display: flex;
-  margin-left: 76px;
-}
-
-.header-menu-item:not(:first-child),
-.header-addres-item:not(:first-child) {
-  margin-left: 40px;
+  gap: 40px;
 }
 
 .header-menu-link,
@@ -121,6 +110,7 @@ img {
 
 .header-addres-list {
   display: flex;
+  gap: 40 px;
 }
 
 /* .header-bg {
@@ -352,10 +342,11 @@ img {
 }
 
 .container {
-  max-width: 1158px;
+  width: 1158px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+  display: flex;
 }
 
 .section {
