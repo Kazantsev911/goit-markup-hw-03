@@ -153,6 +153,7 @@ img {
   display: block;
   min-width: 169px;
   height: 56px;
+  margin-top: 48px;
 }
 
 .hero-title-btn:hover {
@@ -340,10 +341,17 @@ img {
   color: #f4f4fd;
 }
 
-.container {
+.header-container {
   width: 1158px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
   display: flex;
+}
+
+.hero-container {
+  width: 1158px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
