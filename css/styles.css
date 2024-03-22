@@ -37,6 +37,7 @@ img {
 .header {
   border-bottom: 1px solid #e7e9fc;
   background: #fff;
+  padding: 24px 0;
 }
 
 .header-navigation {
@@ -54,6 +55,7 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
+  /* padding: 24px 0; */
 }
 
 .header-logo-studio {
@@ -65,7 +67,7 @@ img {
 }
 
 .header-menu-item {
-  padding: 24px 0;
+  /* padding: 24px 0; */
 }
 
 .header-menu-link {
@@ -117,7 +119,7 @@ img {
 }
 
 .header-addres-item {
-  padding: 24px 0;
+  /* padding: 24px 0; */
 }
 
 .hero {
