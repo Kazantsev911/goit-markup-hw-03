@@ -37,7 +37,7 @@ img {
 .header {
   border-bottom: 1px solid #e7e9fc;
   background: #fff;
-  padding: 24px 0;
+  /* padding: 24px 0; */
 }
 
 .header-navigation {
@@ -67,7 +67,7 @@ img {
 }
 
 .header-menu-item {
-  /* padding: 24px 0; */
+  padding: 24px 0;
 }
 
 .header-menu-link {
@@ -171,8 +171,16 @@ img {
 }
 
 .visually-hidden {
-  /* visibility: hidden; */
-  display: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .feature-list {
@@ -379,6 +387,7 @@ img {
 
 .header-container {
   display: flex;
+  align-items: center;
 }
 
 .feature-container {
