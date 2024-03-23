@@ -55,7 +55,8 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
-  /* padding: 24px 0; */
+  padding: 24px 0;
+  display: block;
 }
 
 .header-logo-studio {
@@ -66,9 +67,9 @@ img {
   gap: 40px;
 }
 
-.header-menu-item {
+/* .header-menu-item {
   padding: 24px 0;
-}
+} */
 
 .header-menu-link {
   font-weight: 500;
@@ -76,8 +77,9 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  /* padding-top: 24px;
-  padding-bottom: 24px; */
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: block;
 }
 
 .header-menu-link:hover {
@@ -97,8 +99,9 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  /* padding-top: 24px;
-  padding-bottom: 24px; */
+  padding-top: 24px;
+  padding-bottom: 24px;
+  display: block;
 }
 
 .header-addres-link:hover {
@@ -118,9 +121,9 @@ img {
   gap: 40px;
 }
 
-.header-addres-item {
-  /* padding: 24px 0; */
-}
+/* .header-addres-item {
+   padding: 24px 0; 
+} */
 
 .hero {
   background: #2e2f42;
@@ -227,7 +230,6 @@ img {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  max-width: 162px;
   margin: 0 auto;
   margin-bottom: 72px;
 }
@@ -282,7 +284,6 @@ img {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
-  max-width: 218px;
   margin: 0 auto;
   margin-bottom: 72px;
 }
@@ -387,7 +388,7 @@ img {
 
 .header-container {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .feature-container {
